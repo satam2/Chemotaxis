@@ -39,7 +39,29 @@ void draw(){
 }
 
 void backdrop(){
-  background(#808076);
+  background(#a7a6ba);
+  //grass
+  noStroke();
+  fill(#C2B280);
+  rect(0,0,90,500);
+  rect(410,0,90,500);
+  // road
+  noStroke();
+  fill(120);
+  rect(100,0,300,500);
+  // yellow lines
+  fill(#f7b500);
+  rect(110,0,5,500);
+  rect(385,0,5,500);
+  
+  rect(245,0,10,30);
+  rect(245,65,10,60);
+  rect(245,155,10,60);
+  rect(245,245,10,60);
+  rect(245,335,10,60);
+  rect(245,425,10,60);
+
+  
 }
 
 class Zombie{
